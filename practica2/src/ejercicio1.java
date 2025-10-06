@@ -14,8 +14,8 @@ public class ejercicio1 {
             System.out.println("Introduza un valor");
             arrayInt[i] =sc.nextInt();
         }
+        System.out.println("Distintas posiciones del array[10]");
         for (int i=0; i<10; i++){
-            System.out.println("Distintas posiciones del array[10]");
             System.out.println(i+" --> "+ arrayInt[i]);
         }
     }
