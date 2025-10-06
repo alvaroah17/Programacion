@@ -12,7 +12,8 @@ public class ejercicio2 {
             System.out.println("Introduza un valor");
             arrayInt[i] = sc.nextInt();
         }
-        for (int i = 0; i< arrayInt.length; i++) {
+        System.out.println("Elementos de un array separados por espacio");
+        for (int i = 0; i<5; i++) {
             System.out.print(arrayInt[i]+" ");
         }
     }
