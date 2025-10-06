@@ -19,5 +19,4 @@ public class ejercicio1 {
             System.out.println(i+" --> "+ arrayInt[i]);
         }
     }
-
 }
