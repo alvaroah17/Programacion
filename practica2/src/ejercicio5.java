@@ -5,7 +5,7 @@ public class ejercicio5 {
         Scanner sc = new Scanner(System.in);
         //Crea un array de números donde
         //le indicamos por teclado el tamaño del array,
-        System.out.println("Introduce el tamaño del array por teclado");
+        System.out.println("- Introduce el tamaño del array por teclado");
         int n= sc.nextInt();
         double [] array=new double[n];
         double suma=0;
@@ -15,7 +15,7 @@ public class ejercicio5 {
             System.out.println(i+" "+array[i]);
             suma+=array[i];
         }
-        System.out.println("Suma de todos los valores aleatorios de cada posición");
+        System.out.println("- Suma de todos los valores aleatorios de cada posición");
         System.out.println(suma);
     }
 }
