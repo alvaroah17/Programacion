@@ -28,8 +28,8 @@ public class ejercicio6 {
                 cero++;
             }
         }
-        System.out.println("Numeros positivos = "+ positivo);
-        System.out.println("Numeros negativos = "+ negativo);
-        System.out.println("Ceros = "+ cero);
+        System.out.println("- Numeros positivos = "+ positivo);
+        System.out.println("- Numeros negativos = "+ negativo);
+        System.out.println("- Ceros = "+ cero);
     }
 }
