@@ -29,6 +29,7 @@ public class ejercicio9 {
                 ValorMinimo=array[i];
                 posicionValorMinimo=i;
             }
+            //Me queda imprimir en pantalla los diferentes valores
         }
     }
 }
