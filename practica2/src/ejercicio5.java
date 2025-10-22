@@ -8,8 +8,12 @@ public class ejercicio5 {
         System.out.println("- Introduce el tamaño del array por teclado");
         int n= sc.nextInt();
         double [] array=new double[n];
+        //creamos un variable para la suma de todos los valores del array
         double suma=0;
+        //Imprimimos el valor de cada posición
         System.out.println("Muestra el valor de cada posición");
+        //Hacemos un bucle que recorra la longitud del array y meta un valor
+        //aleatorio en cada posición
         for (int i=0;i< array.length;i++){
             array[i]=Math.random()*9;
             System.out.println(i+" "+array[i]);
