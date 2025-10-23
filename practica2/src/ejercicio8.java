@@ -29,5 +29,6 @@ public class ejercicio8 {
         }
         System.out.println(superior+ " Personas son mayor a la media  ");
         System.out.println(inferior+ " Personas son menor a la media  ");
+        //Lo entiendo ya que es relativamente parecido al ejercicio 9
     }
 }
