@@ -21,7 +21,12 @@ public class ejercicio1 {
         for (int i = 0; i < doub.length; i++) {
             System.out.printf("%10s","Fila "+i+" |");
             for (int j = 0; j < doub[i].length; j++) {
-                System.out.printf("%10s",doub[i][j]+" |");
+                if (doub[i][j] == null){
+                    System.out.printf("%10s"," "+"|");
+                }
+                else {
+                    System.out.printf("%10s",doub[i][j]+"|");
+                }
             }
             System.out.println();
             System.out.println("----------------------------------------------------------------------");
